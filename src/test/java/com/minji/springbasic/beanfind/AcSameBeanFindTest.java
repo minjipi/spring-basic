@@ -1,6 +1,5 @@
 package com.minji.springbasic.beanfind;
 
-import com.minji.springbasic.AppConfig;
 import com.minji.springbasic.member.MemberRepository;
 import com.minji.springbasic.member.MemoryMemberRepository;
 import org.junit.jupiter.api.DisplayName;
