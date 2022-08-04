@@ -1,9 +1,5 @@
-package com.minji.springbasic;
+package com.minji.springbasic.member;
 
-import com.minji.springbasic.member.Grade;
-import com.minji.springbasic.member.Member;
-import com.minji.springbasic.member.MemberService;
-import com.minji.springbasic.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
