@@ -3,12 +3,13 @@ package com.minji.springbasic;
 import com.minji.springbasic.member.Grade;
 import com.minji.springbasic.member.Member;
 import com.minji.springbasic.member.MemberService;
-import com.minji.springbasic.member.MemberServiceImpl;
 
 public class MemberApp {
     public static void main(String[] args) {
-        MemberService memberService = new MemberServiceImpl();
-//        cmd + opt + v 단축키
+        AppConfig appConfig = new AppConfig();
+        MemberService memberService = appConfig.memberService();
+
+
         Member member = new Member(1L, "member1", Grade.VIP);
         memberService.join(member);
 
